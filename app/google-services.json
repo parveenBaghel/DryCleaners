@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "653654470742",
+    "firebase_url": "https://superdrycleaner-16672.firebaseio.com",
+    "project_id": "superdrycleaner-16672",
+    "storage_bucket": "superdrycleaner-16672.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:653654470742:android:62df3eb9b3b77828d30bf7",
+        "android_client_info": {
+          "package_name": "com.superdrycleaners"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "653654470742-dqo464cmgoi9hlqqs8qr1685ikqasuqa.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.superdrycleaners",
+            "certificate_hash": "e884a0404f2dbac0ee932691c0e7b75907beea7a"
+          }
+        },
+        {
+          "client_id": "653654470742-uf2n2qr9145th0o6rfmtrno886qc02q0.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCpGz19MuNt8PxSAHy0Oe74I3imSF6ETwE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "653654470742-uf2n2qr9145th0o6rfmtrno886qc02q0.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

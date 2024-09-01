@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context="com.superdrycleaners.drycleaners.activities.StartPaymentActivity">
+
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:background="@color/colorPrimary"
+        android:layout_height="wrap_content">
+        <Button
+            android:onClick="payment_finish"
+            android:id="@+id/backBtn"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:background="@drawable/ic_arrow_back"/>
+
+        <TextView
+            android:textStyle="bold"
+            android:layout_marginStart="40dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Offers &amp; Payment"
+            android:textColor="#fff"
+            android:textSize="18sp"
+            android:layout_marginLeft="40dp"
+            tools:ignore="RtlHardcoded" />
+
+
+    </androidx.appcompat.widget.Toolbar>
+
+
+    <TableLayout
+        android:layout_marginTop="50dp"
+
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_below="@+id/toolbar"
+        android:id="@+id/formLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TableRow>
+            <TextView
+                android:textSize="18dp"
+               android:textColor="@color/text_color"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="First Name"/>
+            <EditText
+                android:textSize="17dp"
+                android:textCursorDrawable="@null"
+                android:backgroundTint="@color/black"
+                android:textColor="@color/text_color"
+                android:id="@+id/fname"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_marginLeft="5dip"
+                android:paddingLeft="5dip"
+                android:text="Akhilesh"/>
+        </TableRow>
+
+
+        <TableRow>
+            <TextView
+                android:textSize="18dp"
+                android:textColor="@color/text_color"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Phone Number"/>
+            <EditText
+                android:textSize="17dp"
+                android:textCursorDrawable="@null"
+                android:backgroundTint="@color/black"
+                android:textColor="@color/text_color"
+                android:id="@+id/pnumber"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_marginLeft="5dip"
+                android:paddingLeft="5dip"
+                android:text="Enter Your Number"/>
+        </TableRow>
+
+        <TableRow>
+            <TextView
+                android:textSize="18dp"
+                android:textColor="@color/text_color"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Email"/>
+            <EditText
+                android:textSize="17dp"
+                android:textCursorDrawable="@null"
+                android:backgroundTint="@color/black"
+                android:textColor="@color/text_color"
+                android:id="@+id/emailAddress"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_marginLeft="5dip"
+                android:paddingLeft="5dip"
+                android:text="akhileshkshyp@gmail.com"/>
+        </TableRow>
+
+        <TableRow>
+            <TextView
+                android:textSize="18dp"
+                android:textColor="@color/text_color"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Pay Amount"/>
+            <EditText
+                android:textSize="17dp"
+                android:textCursorDrawable="@null"
+                android:backgroundTint="@color/black"
+                android:textColor="@color/text_color"
+                android:id="@+id/rechargeAmt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_marginLeft="5dip"
+                android:paddingLeft="5dip"
+                android:text="50"
+                android:inputType="number"/>
+        </TableRow>
+
+    </TableLayout>
+
+    <Button
+        android:backgroundTint="@color/buttoncolor"
+        android:fontFamily="serif"
+        android:id="@+id/Paynow"
+        android:layout_width="100dip"
+        android:layout_height="45dip"
+        android:text="Pay Now"
+        android:textColor="@color/buttonTextColor"
+        android:background="@drawable/btn_shape"
+        android:layout_below="@+id/formLayout"
+        android:layout_marginTop="20dip"
+        android:layout_centerHorizontal="true"/>
+
+    <RelativeLayout
+        android:id="@+id/paylay"
+        android:onClick="back"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_below="@id/Paynow"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="20dp">
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_centerInParent="true" />
+
+      <!--  <TextView
+            android:background="@drawable/btn_shape"
+            android:id="@+id/pickupSubmit_BTN"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_centerInParent="true"
+            android:gravity="center"
+            android:text="&lt;&lt;back"
+            android:textColor="@android:color/white"
+            android:textSize="20sp" />-->
+    </RelativeLayout>
+
+ <!--   <ImageView
+        android:src="@drawable/bac"
+        android:layout_marginTop="20dp"
+        android:layout_centerInParent="true"
+        android:layout_below="@+id/paylay"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+    </ImageView>-->
+
+
+
+
+</RelativeLayout>

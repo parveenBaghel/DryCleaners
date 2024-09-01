@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.superdrycleaners">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application
+        android:name=".drycleaners.App.MyApplication"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:largeHeap="true"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        android:usesCleartextTraffic="true"
+        tools:replace="android:allowBackup">
+        <activity android:name=".drycleaners.activities.PayYourBillActivity"></activity>
+        <activity android:name=".drycleaners.activities.WalletActivity" />
+        <activity
+            android:name=".drycleaners.activities.SplashActivity"
+            android:label="@string/app_name"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".drycleaners.activities.LoginActivity"
+            android:label="@string/login"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateHidden" />
+        <activity
+            android:name=".drycleaners.activities.SignUpActivity"
+            android:label="@string/signup"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateHidden" />
+        <activity
+            android:name=".drycleaners.activities.Pickup_Request_Activity"
+            android:label="Pickup Request"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateHidden" />
+        <activity
+            android:name=".drycleaners.activities.RateChartCategoryList"
+            android:label="Categories"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".drycleaners.activities.MainActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait" />
+        <activity android:name=".drycleaners.activities.UserProfileActivity" />
+        <activity
+            android:name=".drycleaners.activities.PickuRequestList_Activity"
+            android:label="Delivery" />
+        <activity
+            android:name=".drycleaners.activities.Pickup_Details"
+            android:label="Details" />
+        <activity
+            android:name=".drycleaners.activities.TermCondition_Activity"
+            android:label="Terms and Conditions" />
+        <activity
+            android:name=".drycleaners.activities.JObsActivity"
+            android:label="Jobs Details" />
+        <activity
+            android:name=".drycleaners.activities.AddJobsCart_Details"
+            android:label="Add Jobs" />
+        <activity
+            android:name=".drycleaners.activities.DeliveryActivity"
+            android:label="Delivery Request"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".drycleaners.activities.DeliveryListActivity"
+            android:label="Delivery List"
+            android:screenOrientation="portrait" />
+        <activity android:name=".drycleaners.activities.OrderHistory" />
+        <activity android:name=".drycleaners.activities.Offers" />
+        <activity
+            android:name=".drycleaners.activities.StartPaymentActivity"
+            android:windowSoftInputMode="stateHidden" />
+        <activity android:name=".drycleaners.PayUGateway.PayMentGateWay" />
+        <activity
+            android:name=".drycleaners.activities.SubCategoryList"
+            android:theme="@style/Theme.Design.NoActionBar" />
+        <activity android:name=".drycleaners.activities.Product_Details" />
+        <activity android:name=".drycleaners.activities.ChangePassword" />
+        <activity
+            android:name=".drycleaners.activities.CounterRequest"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateHidden" />
+        <activity android:name=".drycleaners.activities.CounterList" />
+        <activity android:name=".drycleaners.activities.Payment_status" />
+        <activity android:name=".drycleaners.activities.Coupon" />
+    </application>
+
+</manifest>

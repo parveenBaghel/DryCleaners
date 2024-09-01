@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#FFFFFF</color>
+    <color name="colorPrimaryDark">#000000</color>
+    <color name="colorAccent">#000000</color>
+    <color name="back_color">#000000</color>
+    <color name="hint_color">#000000</color>
+    <color name="text_color">#000000</color>
+    <color name="dot_inactive">#1B1B1B</color>
+
+    <!-- dots active colors -->
+    <color name="dot_active">#e5e5e5</color>
+    <color name="main_bg">#707012</color>
+    <color name="icon_bg">#000000</color>
+    <color name="buttoncolor">#4CAF50</color>
+    <color name="buttonTextColor">#FFFFFF</color>
+    <color name="navigation">#047BD5</color>
+    <color name="bg_screen1">#f64c73</color>
+    <color name="bg_screen2">#0D446D</color>
+    <color name="bg_screen3">#3395ff</color>
+    <color name="bg_screen4">#E04034</color>
+    <color name="Tan">#D2B48C</color>
+    <color name="Tan2">#05c3d4</color>
+
+</resources>

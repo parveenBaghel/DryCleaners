@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="5dp"
+    android:orientation="vertical"
+    android:layout_marginTop="5dp"
+    android:background="@drawable/list_shape">
+
+
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:layout_marginTop="2dp"
+        android:id="@+id/details_show"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <androidx.appcompat.widget.LinearLayoutCompat
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1.8"
+            android:orientation="vertical">
+
+            <androidx.appcompat.widget.LinearLayoutCompat
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="2dp"
+                android:orientation="vertical">
+
+                <androidx.appcompat.widget.AppCompatImageView
+                    android:id="@+id/img_id"
+                    android:fontFamily="serif"
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"/>
+
+                <TextView
+                    android:textStyle="bold"
+                    android:fontFamily="serif"
+                    android:layout_marginTop="10dp"
+                    android:id="@+id/text_id"
+                    android:text="Buy Now"
+                    android:textColor="#000000"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+
+                <TextView
+                    android:paddingTop="5dp"
+                    android:background="@drawable/btn_offer_shape"
+                    android:layout_gravity="center_horizontal"
+                    android:textStyle="bold"
+                    android:fontFamily="serif"
+                    android:paddingLeft="20dp"
+                    android:paddingRight="20dp"
+                    android:gravity="center"
+                    android:layout_marginTop="5dp"
+                    android:id="@+id/buy"
+                    android:text="Buy Now / avail now"
+                    android:paddingBottom="10dp"
+                    android:textColor="@color/buttonTextColor"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+
+
+
+
+
+            </androidx.appcompat.widget.LinearLayoutCompat>
+
+
+    </androidx.appcompat.widget.LinearLayoutCompat>
+    </androidx.appcompat.widget.LinearLayoutCompat>
+</androidx.appcompat.widget.LinearLayoutCompat>
+
+
+

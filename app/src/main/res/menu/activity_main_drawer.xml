@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_profile"
+            android:icon="@drawable/ic_account"
+            android:title="@string/profile"
+            app:itemIconTint="@color/colorPrimaryDark"/>
+    </group>
+    <group android:checkableBehavior="single">
+
+
+        <group android:checkableBehavior="single">
+            <item
+                android:id="@+id/nav_pricing"
+                android:icon="@drawable/ic_request"
+                android:title="Rate Chart"
+                app:itemIconTint="@color/colorPrimaryDark"/>
+        </group>
+
+
+        <group android:checkableBehavior="single">
+            <item
+                android:id="@+id/nav_pay_bill"
+                android:icon="@drawable/ic_pricing"
+                android:title="Pay Bill"
+                android:visible="false"
+                app:itemIconTint="@color/colorPrimaryDark"/>
+        </group>
+
+
+        <group android:checkableBehavior="single">
+            <item
+                android:id="@+id/nav_pickup"
+                android:icon="@drawable/ic_order"
+                android:title="Pickup Request"
+                app:itemIconTint="@color/colorPrimaryDark"/>
+        </group>
+        <item
+            android:id="@+id/nav_Pickuprequest"
+            android:icon="@drawable/ic_request"
+            android:title="Counter Request"
+            android:visible="false"
+            app:itemIconTint="@color/colorPrimaryDark"/>
+    </group>
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_counter_Req"
+            android:icon="@drawable/ic_order"
+            android:title="Delivery Request"
+            android:visible="true"
+            app:itemIconTint="@color/colorPrimaryDark"/>
+    </group>
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_delivery"
+            android:icon="@drawable/ic_view_list_black_24dp"
+            android:title="Counter List"
+            android:visible="false"
+            app:itemIconTint="@color/colorPrimaryDark"/>
+    </group>
+
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_counter"
+            android:icon="@drawable/ic_view_list_black_24dp"
+            android:title="Delivery List"
+            app:itemIconTint="@color/colorPrimaryDark"/>
+    </group>
+
+<!--    <group android:checkableBehavior="single">-->
+<!--        <item-->
+<!--            android:id="@+id/nav_history"-->
+<!--            android:icon="@drawable/ic_history_black_24dp"-->
+<!--            android:title="New Offers "-->
+<!--            app:itemIconTint="@color/colorPrimaryDark"/>-->
+<!--    </group>-->
+
+    <!--group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_coupon"
+            android:icon="@drawable/coupon"
+            android:title="My Coupon "
+            app:itemIconTint="@color/colorPrimaryDark"/>
+    </group-->
+
+<!--    <group android:checkableBehavior="single">-->
+<!--        <item-->
+<!--            android:id="@+id/nav_offers"-->
+<!--            android:icon="@drawable/ic_local_offer_black_24dp"-->
+<!--            android:title="Offers History"-->
+<!--            app:itemIconTint="@color/colorPrimaryDark"/>-->
+<!--    </group>-->
+
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_share"
+            android:icon="@drawable/ic_menu_share"
+            android:title="Share"
+            app:itemIconTint="@color/colorPrimaryDark"/>
+    </group>
+
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_termcondition"
+            android:icon="@drawable/ic_assignment"
+            android:title="@string/termcondition"
+            app:itemIconTint="@color/colorPrimaryDark"/>
+    </group>
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_logout"
+            android:icon="@drawable/ic_logout"
+            android:title="Logout"
+            app:itemIconTint="@color/colorPrimaryDark"/>
+
+    </group>
+
+</menu>

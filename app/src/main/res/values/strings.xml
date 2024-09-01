@@ -1,0 +1,152 @@
+<resources>
+    <string name="app_name">PADMAVATI</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+    <string name="email">Mobile</string>
+    <string name="name">Full Name</string>
+    <string name="address1">Address</string>
+    <string name="mobile">Mobile Number</string>
+    <string name="pinno">Pin No.</string>
+    <string name="pass">Password</string>
+    <string name="refer">Refer code</string>
+    <string name="new_user">You are a new User. Sign Up.?</string>
+    <string name="forget_pass">Forgot Password.? </string>
+    <string name="login">Login</string>
+    <string name="signup">Sign Up</string>
+    <string name="termcondition">Terms &amp; Conditions</string>
+    <string name="next">NEXT</string>
+    <string name="skip">SKIP</string>
+    <string name="got_it">DONE</string>
+    <string name="welcome">Intro slider example by siguientesoftwares.com/</string>
+    <string name="slide1_desc">Let your hands the door to grab desired Smart Dry cleaner</string>
+    <string name="slide1_title">Let your hands the door to grab desired Smart Dry cleaner</string>
+    <string name="slide2_desc">What you like, you wear. Make your own choice here</string>
+    <string name="slide2_title">Let your hands the door to grab desired Smart Dry cleaner</string>
+    <string name="slide3_desc">Take and go, new arrivals are waiting for you</string>
+    <string name="slide3_title">Let your hands the door to grab desired Smart Dry cleaner</string>
+    <string name="slide4_desc">Get some more interesting things on Smart Dry cleane)</string>
+    <string name="slide4_title">Where are your eyes? Get your desired Smart Dry cleane at exclusive rate</string>
+    <string name="dialog_text">
+FEW REASONSWHY IS NECESSARY FOR THE CUSTOMES TO READ,UNDERSTAND &amp; ACCEPT THE TERMS</string>
+    <string name="don_t_have_an_account_signup">Don\'t have an account? SignUp</string>
+    <string name="update_app">Update App</string>
+    <string name="restart">Restart</string>
+
+
+    <string name="html">
+        <![CDATA[
+        <p><b>Padmavati DRY CLEANERS  </b>provides services which are subjected to the customer&apos;s compliance and acceptance with the terms and conditions set forth below.</p>
+        <p>Please read the following agreement carefully. Use of any of company services indicates an agreement to be bound by the terms and conditions listed.</p>
+        <p>This agreement is strictly between the company and the customer. It does not constitute or imply any relationship with any other parties. As a condition for using any of the services and for the mutual benefit of both (company and customer), the customer(signed up &amp; regular) agrees to the following: </p>
+        <p><b>1. </b>Any complaints/requests will NOT be entertained after 15 days of the delivery.</p>
+        <p><b>2. </b>We urge the customer to thoroughly inspect the garment by himself to check for any important Belongings/Cash/etc. If any such thing is found in the initial checks at the workshop, The Incharge on duty would duly inform the customer about the same and the incident can be resolved at mutual discretion then &amp; there.  </p>
+        <p><b>3. </b>Any complaints/requests raised after 8 hoursof the pickup would  NOT be entertained in any case.</p>
+        <p><b>4. </b>Practically, It is not always possible to inspect the garment for any defects/stains at the time of Pick-up.
+         In order to ensure to ensure the transparency, if such defects/stains get apparent during the final check-up before processing the garment,
+          Workshop Incharge would inform the customer about the same and his decision would be FINAL.</p>
+        <p><b>5. </b>Company will proceed ahead only after receiving the consent from the customer and Company would not be liable for any compensation and would not entertain any discussion on the same.</p>
+        <p><b>6. </b>All garments/linen/fabrics are handled with the greatest care but owing to the conditions of the articles or non-apparent/non-visible defects in its materials.</p>
+        <p><b>7. </b>There is a possibility of Colour Discolouration or Shrinkage, and such garments/articles are accepted for cleaning at Owner&apos;s RISK and company will not be responsible for it.</p>
+        <p><b>8. </b> Company will use reasonable efforts and try to ensure that any service(as requested by the customer) are maintained at the Highest level of Quality.Due to time constraints,
+        Company does not read any tags/labels suggesting measures for washing/drying/etc.Company accepts no liability for the delicate items and perform NO special care for any article that requires special attention.</p>
+
+        <p></p>
+
+        <h2>Payment Terms:</h2>
+        <p><b>1.</b> Express services will be charged extra and those charges will be levied according to the garment and its respective service whatever requested. </p>
+        <p><b>2.</b> Customer has to pay the entire Billed amount after successful delivery of order.</p>
+        <p><b>3.</b> Currently, Company is not accepting any card payments(under development). Only Accepted options : Cash, PayTm, PhonePe, UPI or Current Dated Cheques in the name of (Padmavati INDIA)</p>
+        <p><b>4.</b> Cancellation/Refund Policy:Any extra amount paid by the customer for retail order can be refunded on mutual discretion.</p>
+        <p><b>5.</b> No Cancellation charge will be levied if the pickup is cancelled the very same day.</p>
+        <p><b>6.</b> In case company denies to process any article because of any reason, the charges levied for the service of that particular article will be refunded to the customer or will be added on the prepaid balance for the prepaid plan customer.</p>
+
+
+        <p><b>IMP NOTE :</b> The Value of the Garment is not what claimed by the owner, but it is assessed by the fair market value of a &ldquo;used garment&rdquo;. Hence, In case of any Defect/Theft/Fire/Riots or any other similar unforeseen causes, Company is liable to pay Only 10 times of the value charged for its service. NO additional compensation would be given and NO further discussions would be entertained in any case whatsoever.</p>
+
+
+         <h2>Privacy Policy:</h2>
+        <p><b>1.</b> Company never sells your personal information like your phone number, address or email id with any third party.</p>
+        <p><b>2.</b> Company can use customer details for sending promotional messages, Transactional messages or any other message for the customer benefits.</p>
+        <p><b>3.</b> Company may hire other companies to provide limited administrative  and communication services on the company behalf,
+        such as hosting sites, the processing and delivery of mailings, providing customer support. Company has the right to disclose your personal
+        information to these third party companies for the purpose of administering and maintaining the site and App Features, functions and operations.
+        Those companies will be permitted to obtain only such personal information as necessary for them to deliver the respective services,
+        and we do not authorise these companies to use your personal information except for the sole purpose of providing those services requested by us.</p>
+
+
+        <p><i>For any Suggestions/Feedbacks/Complaints/Queries contact us at <b>Padmavatidrycleanrs49@gmail.com.</b></i></p>
+        <p></p>
+        <p>All disputes are subjected to the jurisdiction of courts located in Delhi.</p>
+
+
+        <!--<h2>A sub-title</h2>
+        <p>This is some html. Look, here\'s an <u>underline</u>.</p>
+        <p>Look, this is <em>emphasized.</em> And here\'s some <b>bold</b>.</p>
+        <p>This is a UL list:
+        <ul>
+        <li>One</li>
+        <li>Two</li>
+        <li>Three</li>
+        </ul>
+        <p>This is an OL list:
+        <ol>
+        <li>One</li>
+        <li>Two</li>
+        <li>Three</li>
+        </ol>-->
+        ]]>
+    </string>
+    <string name="profile">Profile</string>
+    <string name="design_amp_developed_by_siguiente_softwares_pvt_ltd"><![CDATA[Design & Developed By :Siguiente Softwares Pvt Ltd]]></string>
+    <string name="get_up_to_rs_200_discount_in_your_account_balance_on_rs_1000_checkout_bill">Get up to Rs.10% discount in your Smart Dry Cleaners Account balance On Rs.1100 Checkout bill</string>
+    <string name="terms_amp_conditions"><![CDATA[TERMS & CONDITIONS]]></string>
+    <string name="_1_all_articles_accepted_at_customer_s_risk">1.All articles accepted at customer’s risk</string>
+    <string name="_2_no_guarantee_of_stain_s_removel_colour_fade_colour_spill_embroidery_colour_beads_buttons_pasting_damages_or_any_kind_of_wear_tear_no_claim_compensation_in_any_case_only_repair_if_possible_will_be_done"><![CDATA[2.No Guarantee of stain’s removel,colour fade,colour spill, Embroidery colour, Beads,Buttons,Pasting Damages or any kind of wear & tear, No claim/compensation in any case only repair,if possible will be done.]]></string>
+    <string name="_3_in_the_event_of_loss_misplacement_interchange_or_damage_the_firm_will_have_the_option_of_either_replacing_or_repairing_the_articles_the_liability_of_the_firm_for_the_loss_or_injury_of_any_kind_shall_be_one_fourth_of_the_price_of_articles_the_price_of_that_goods_in_such_cases_will_be_determined_according_to_the_market_value_and_articles_will_be_resumed_by_the_firm">3.In the event of loss, misplacement interchange or damage the firm will have the option of either replacing or repairing the articles.The liability of the firm for the loss or injury of any kind shall be one fourth of the price of articles. The price of that goods in such cases will be determined according to the market value and articles will be resumed by the firm.</string>
+    <string name="_4_articles_that_remain_unclaimed_by_customers_upto_2_months_from_the_date_of_delivery_will_be_donated_to_the_needful_no_claims_amp_compensation_in_that_case"><![CDATA[4.Articles that remain unclaimed by customers upto 2 months from the date of delivery, will be donated to the needful. No claims & compensation in that case.]]></string>
+    <string name="_5_the_firm_does_not_hold_responsibility_of_anything_left_in_the_pocket_of_the_articles">5.The firm does not hold responsibility of anything left in the pocket of the articles.</string>
+    <string name="few_reasonswhy_is_necessary_for_the_customes_to_read_understand_amp_accept_the_terms"><![CDATA[FEW REASONSWHY IS NECESSARY FOR THE CUSTOMES TO READ,UNDERSTAND & ACCEPT THE TERMS]]></string>
+    <string name="_1_some_beads_or_buttons_have_tendency_to_melt_in_cleaning_solvents_and_results_in_change_of_shape_colour_and_sticking_on_the_fabric_also_some_of_them_are_pasted_on_fabric_rather_than_being_properly_stitched_resulting_in_getting_detached">1\t.Some beads or buttons have tendency to melt in cleaning solvents and results in change of shape/colour and sticking on the fabric, Also some of them are pasted on fabric rather than being properly stitched,resulting in getting detached.</string>
+    <string name="_3_in_steam_pressing_or_charakh_pressing_if_the_colour_of_the_fabric_or_embroidery_is_not_fast_that_may_result_in_colour_bleeding">3\tIn steam pressing or charakh pressing,if the colour of the fabric or Embroidery is not fast,that may result in colour bleeding.</string>
+    <string name="_2_some_stains_do_not_accept_petrolium_solvents_as_cleaning_agent_and_have_to_be_treated_chemically_that_may_effect_the_fabric_colour">2\tSome stains do not accept petrolium solvents as cleaning agent and have to be treated chemically, that may effect the fabric colour.</string>
+    <string name="_4_some_fabrics_are_old_enough_to_loose_tensile_fabric_strength_or_get_weak_at_stained_area_that_may_result_in_injury_to_the_fabric">4\tSome fabrics are old enough to loose tensile (fabric strength) or get weak at stained area. That may result in injury to the fabric.</string>
+    <string name="_5_some_curtains_are_exposed_to_sunlight_and_mostly_people_are_unaware_of_its_result_on_colour_and_fabric_after_cleaning_they_may_result_in_colour_fade">5\tSome curtains are exposed to sunlight and mostly, people are unaware of its result on colour and fabric.after cleaning they may result in colour fade.</string>
+    <string name="_6_all_the_articles_cannot_be_checked_properly_here_at_counter_they_are_thoroughly_checked_by_inspection_machines_at_factory_customers_are_informed_before_processing_of_any_wear_or_tear_if_found">6\tAll the articles cannot be checked properly.here, at counter.they are thoroughly checked by inspection machines, at factory.customers are informed,before processing,of any wear or tear,if found.</string>
+    <string name="don_t_show_this_message_again">Agree</string>
+    <string name="changed_password">Changed Password?</string>
+    <string name="coupon">My Coupon</string>
+    <string name="_8527972122">8527972122</string>
+    <string name="your_balance">Your Balance</string>
+    <string name="_00_rs">Rs 00.</string>
+    <string name="mobile_number">Mobile Number</string>
+    <string name="noida_sector_18">Noida Sector 18</string>
+    <string name="address">Address</string>
+    <string name="akhileshkshyp_gmail_com">akhileshkshyp@gmail.com</string>
+    <string name="change_password">Change Password</string>
+    <string name="serial">SERIAL: </string>
+    <string name="model">MODEL: </string>
+    <string name="id">ID: </string>
+    <string name="manufacturer">MANUFACTURER: </string>
+    <string name="brand">BRAND: </string>
+    <string name="type">TYPE: </string>
+    <string name="user">USER: </string>
+    <string name="base">BASE: </string>
+    <string name="incremental">INCREMENTAL: </string>
+    <string name="sdk">SDK: </string>
+    <string name="board">BOARD: </string>
+    <string name="host">HOST: </string>
+    <string name="fingerprint">FINGERPRINT: </string>
+    <string name="versioncode">VERSION CODE: </string>
+    <string name="emienumber">EMIE NUMBER: </string>
+    <string name="pay_your_bill">Pay your Bill</string>
+    <string name="amount">Amount</string>
+    <string name="remark">Remark</string>
+    <string name="pincode">PinCode</string>
+    <string name="location">Location</string>
+
+
+</resources>
