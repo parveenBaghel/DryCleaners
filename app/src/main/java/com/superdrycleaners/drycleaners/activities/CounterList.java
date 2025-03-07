@@ -70,7 +70,7 @@ public class CounterList extends AppCompatActivity implements ConnectivityReceiv
 
 
   private void checkConnection() {
-    boolean isConnected= ConnectivityReceiver.isConnected();
+    boolean isConnected= ConnectivityReceiver.isConnected(getApplicationContext());
     showSnack(isConnected);
   }
   private void showSnack(boolean isConnected) {

@@ -68,7 +68,7 @@ public class PickuRequestList_Activity extends AppCompatActivity implements Conn
     }
 
     private void checkConnection() {
-        boolean isConnected= ConnectivityReceiver.isConnected();
+        boolean isConnected= ConnectivityReceiver.isConnected(getApplicationContext());
         showSnack(isConnected);
     }
     private void showSnack(boolean isConnected) {

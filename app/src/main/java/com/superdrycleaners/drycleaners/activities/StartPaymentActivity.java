@@ -111,7 +111,7 @@ public class StartPaymentActivity extends AppCompatActivity implements Connectiv
     }
 
     private void checkConnection() {
-        boolean isConnected = ConnectivityReceiver.isConnected();
+        boolean isConnected = ConnectivityReceiver.isConnected(getApplicationContext());
         showSnack(isConnected);
 
     }

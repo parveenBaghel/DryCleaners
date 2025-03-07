@@ -67,7 +67,7 @@ public class Payment_status extends AppCompatActivity implements ConnectivityRec
     }
 
     private void checkConnection() {
-        boolean isConnected = ConnectivityReceiver.isConnected();
+        boolean isConnected = ConnectivityReceiver.isConnected(getApplicationContext());
         showSnack(isConnected);
     }
 

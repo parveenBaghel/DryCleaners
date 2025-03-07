@@ -56,7 +56,7 @@ public class RateChartCategoryList extends AppCompatActivity implements Connecti
     }
 
     private void checkConnection() {
-        boolean isConnected = ConnectivityReceiver.isConnected();
+        boolean isConnected = ConnectivityReceiver.isConnected(getApplicationContext());
         showSnack(isConnected);
     }
 

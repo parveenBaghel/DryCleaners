@@ -3,7 +3,7 @@ package com.superdrycleaners.drycleaners.Config;
 public class ConfigClass {
 //    public static final String BASE_URL= "https://siguientedm.com/super/api/user/";
     public static final String BASE_URL= "https://garmentcare.in/padmavati/api/user/";
-
+//public static final String BASE_URL= "https://garmentcare.in/lucky/api/user/";
     public static final String BANNER_IMAGE=BASE_URL+"banner.php";
     public static final String LOGIN = BASE_URL+"login.php";
     public static final String SIGNUP = BASE_URL+"create.php";

@@ -73,7 +73,7 @@ public class Coupon extends AppCompatActivity implements ConnectivityReceiver.Co
     }
 
     private void checkConnection() {
-        boolean isConnected= ConnectivityReceiver.isConnected();
+        boolean isConnected= ConnectivityReceiver.isConnected(getApplicationContext());
         showSnack(isConnected);
 
     }

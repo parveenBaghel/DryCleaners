@@ -186,7 +186,7 @@ public class WalletActivity extends AppCompatActivity implements ConnectivityRec
     }
 
     private void checkConnection() {
-        boolean isConnected = ConnectivityReceiver.isConnected();
+        boolean isConnected = ConnectivityReceiver.isConnected(getApplicationContext());
         showSnack(isConnected);
     }
 

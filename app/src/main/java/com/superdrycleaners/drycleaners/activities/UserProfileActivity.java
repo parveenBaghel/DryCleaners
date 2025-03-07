@@ -113,7 +113,7 @@ public class UserProfileActivity extends AppCompatActivity implements Connectivi
     }
 
     private void checkConnection() {
-        boolean isConnected = ConnectivityReceiver.isConnected();
+        boolean isConnected = ConnectivityReceiver.isConnected(getApplicationContext());
         showSnack(isConnected);
     }
 
